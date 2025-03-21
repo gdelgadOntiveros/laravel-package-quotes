@@ -63,6 +63,6 @@ php artisan vendor:publish --tag=quotes-tests
 
 ## URL API GET METHOD
 
-`/api/quotes`: all quotes.
-`/api/quotes/random`: random quote.
-`/api/quotes/{id}`: specific quote by ID.
+- `/api/quotes`: all quotes.
+- `/api/quotes/random`: random quote.
+- `/api/quotes/{id}`: specific quote by ID.
