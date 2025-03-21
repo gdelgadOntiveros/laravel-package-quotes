@@ -2,7 +2,7 @@
 
 namespace Orchestra\Canvas\Presets;
 
-use function Orchestra\Sidekick\join_paths;
+use function Illuminate\Filesystem\join_paths;
 
 class Laravel extends Preset
 {

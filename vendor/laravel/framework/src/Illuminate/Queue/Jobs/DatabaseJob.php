@@ -30,6 +30,7 @@ class DatabaseJob extends Job implements JobContract
      * @param  \stdClass  $job
      * @param  string  $connectionName
      * @param  string  $queue
+     * @return void
      */
     public function __construct(Container $container, DatabaseQueue $database, $job, $connectionName, $queue)
     {

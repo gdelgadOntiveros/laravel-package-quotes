@@ -135,10 +135,12 @@ trait CopyTestbenchFiles
      */
     protected function testbenchEnvironmentFile(): string
     {
-        return match (true) {
-            property_exists($this, 'environmentFile') => $this->environmentFile,
-            Env::has('TESTBENCH_ENVIRONMENT_FILENAME') => Env::get('TESTBENCH_ENVIRONMENT_FILENAME'),
-            default => '.env',
-        };
+        if (property_exists($this, 'environmentFile')) {
+            return $this->environmentFile;
+        } elseif (Env::has('TESTBENCH_ENVIRONMENT_FILE_USING')) {
+            return Env::get('TESTBENCH_ENVIRONMENT_FILE_USING');
+        }
+
+        return '.env';
     }
 }

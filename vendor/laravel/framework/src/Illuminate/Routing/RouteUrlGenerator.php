@@ -55,6 +55,7 @@ class RouteUrlGenerator
      *
      * @param  \Illuminate\Routing\UrlGenerator  $url
      * @param  \Illuminate\Http\Request  $request
+     * @return void
      */
     public function __construct($url, $request)
     {

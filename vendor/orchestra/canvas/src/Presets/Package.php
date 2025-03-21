@@ -4,7 +4,7 @@ namespace Orchestra\Canvas\Presets;
 
 use InvalidArgumentException;
 
-use function Orchestra\Sidekick\join_paths;
+use function Illuminate\Filesystem\join_paths;
 
 class Package extends Preset
 {

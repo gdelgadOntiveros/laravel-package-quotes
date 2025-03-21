@@ -30,6 +30,7 @@ abstract class Component
      * Creates a new component instance.
      *
      * @param  \Illuminate\Console\OutputStyle  $output
+     * @return void
      */
     public function __construct($output)
     {

@@ -41,6 +41,7 @@ class Logger implements LoggerInterface
      *
      * @param  \Psr\Log\LoggerInterface  $logger
      * @param  \Illuminate\Contracts\Events\Dispatcher|null  $dispatcher
+     * @return void
      */
     public function __construct(LoggerInterface $logger, ?Dispatcher $dispatcher = null)
     {
