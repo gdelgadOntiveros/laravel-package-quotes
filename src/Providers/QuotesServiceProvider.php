@@ -72,5 +72,10 @@ class QuotesServiceProvider extends ServiceProvider
             __DIR__ . '/../../dist' => public_path('vendor/quotes'),
         ], 'quotes-ui');
 
+        // test
+        $this->publishes([
+            __DIR__ . '/../../tests/Feature' => base_path('tests/Feature'),
+        ], 'quotes-tests');
+
     }
 }

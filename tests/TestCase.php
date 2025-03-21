@@ -2,9 +2,16 @@
 
 namespace Gdelgado\Quotes\Tests;
 
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Orchestra\Testbench\TestCase as BaseTestCase;
+use Gdelgado\Quotes\Providers\QuotesServiceProvider;
 
-abstract class TestCase extends BaseTestCase
+class TestCase extends BaseTestCase
 {
-    //
+
+    protected function getPackageProviders($app)
+    {
+        return [
+            QuotesServiceProvider::class,
+        ];
+    }
 }
