@@ -2,9 +2,9 @@
 
 namespace Gdelgadontiveros\LaravelPackageQuotes\Tests\Feature;
 
-use Gdelgadontiveros\LaravelPackageQuotes\Tests\TestCaseQuote;
+use Gdelgadontiveros\LaravelPackageQuotes\Tests\TestCase;
 
-class QuotesTest extends TestCaseQuote
+class QuotesTest extends TestCase
 {
     public function test_all_quotes()
     {
