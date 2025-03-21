@@ -20,7 +20,7 @@ Add the package's repository in the `composer.json` file:\
 And:
 
 	```bash
-	composer require gdelgadontiveros/laravel-package-quotes:dev-master --with-dependencies
+	composer require gdelgadontiveros/laravel-package-quotes:dev-main --with-dependencies
 	```
 
 
