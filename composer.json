@@ -1,0 +1,36 @@
+{
+    "name": "gdelgado/quotes",
+    "description": "package for connection to dummyjson api, graphical interface with vuejs",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gdelgado\\Quotes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Gdelgado\\Quotes\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gdelgado\\Quotes\\Providers\\QuotesServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo",
+            "email": "gustavo.a.delgado.o@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5.3"
+    }
+}
