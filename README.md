@@ -13,10 +13,7 @@ Add the package's repository in the `composer.json` file:\
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/gdelgadOntiveros/laravel-package-quotes.git",
-            "options": {
-                "symlink": true
-            }
+            "url": "https://github.com/gdelgadontiveros/laravel-package-quotes.git"
         }
     ],
 	```
