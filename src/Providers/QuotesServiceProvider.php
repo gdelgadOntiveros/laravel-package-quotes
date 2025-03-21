@@ -74,7 +74,7 @@ class QuotesServiceProvider extends ServiceProvider
 
         // test
         $this->publishes([
-            __DIR__ . '/../../tests/Feature' => base_path('tests'),
+            __DIR__ . '/../../tests' => base_path('tests'),
         ], 'quotes-tests');
 
     }
