@@ -1,8 +1,8 @@
 <?php
 
-namespace Gdelgado\Quotes\Http\Controllers;
+namespace Gdelgadontiveros\LaravelPackageQuotes\Http\Controllers;
 
-use Gdelgado\Quotes\Services\HttpRequestService;
+use Gdelgadontiveros\LaravelPackageQuotes\Services\HttpRequestService;
 use Illuminate\Http\Request;
 
 class QuotesController

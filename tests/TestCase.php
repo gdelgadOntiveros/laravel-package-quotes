@@ -1,9 +1,9 @@
 <?php
 
-namespace Gdelgado\Quotes\Tests;
+namespace Gdelgadontiveros\LaravelPackageQuotes\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Gdelgado\Quotes\Providers\QuotesServiceProvider;
+use Gdelgadontiveros\LaravelPackageQuotes\Providers\QuotesServiceProvider;
 
 class TestCase extends BaseTestCase
 {

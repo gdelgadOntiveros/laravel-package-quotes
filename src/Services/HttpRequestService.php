@@ -1,6 +1,6 @@
 <?php
 
-namespace Gdelgado\Quotes\Services;
+namespace Gdelgadontiveros\LaravelPackageQuotes\Services;
 
 
 use Illuminate\Support\Facades\Http;

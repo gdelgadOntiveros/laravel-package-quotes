@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Gdelgado\Quotes\Http\Controllers\QuotesController;
+use Gdelgadontiveros\LaravelPackageQuotes\Http\Controllers\QuotesController;
 
 // Route::middleware('throttle:api')->group(function () {
 //     Route::prefix('api')->get('quotes-ui', [QuotesController::class, 'getQuote'])->name('quotes');

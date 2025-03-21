@@ -1,8 +1,8 @@
 <?php
 
-namespace Gdelgado\Quotes\Tests\Feature;
+namespace Gdelgadontiveros\LaravelPackageQuotes\Tests\Feature;
 
-use Gdelgado\Quotes\Tests\TestCase;
+use Gdelgadontiveros\LaravelPackageQuotes\Tests\TestCase;
 
 class QuotesTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gdelgado\Quotes\Providers;
+namespace Gdelgadontiveros\LaravelPackageQuotes\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Cache\RateLimiting\Limit;
