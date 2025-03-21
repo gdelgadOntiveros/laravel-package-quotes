@@ -2,7 +2,8 @@
 
 namespace Gdelgadontiveros\LaravelPackageQuotes\Tests\Feature;
 
-use Gdelgadontiveros\LaravelPackageQuotes\Tests\TestCase;
+// use Gdelgadontiveros\LaravelPackageQuotes\Tests\TestCase; // for package
+use Tests\TestCase;
 
 class QuotesTest extends TestCase
 {
