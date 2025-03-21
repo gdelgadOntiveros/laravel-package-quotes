@@ -1,7 +1,6 @@
 {
     "name": "gdelgado/quotes",
     "description": "package for connection to dummyjson api, graphical interface with vuejs",
-    "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {

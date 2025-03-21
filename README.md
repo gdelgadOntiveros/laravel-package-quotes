@@ -12,18 +12,18 @@ Add the package's repository in the `composer.json` file:\
  	```json
     "repositories": [
         {
-            "type": "path",
-            "url": "packages/gdelgado/quotes",
+            "type": "vcs",
+            "url": "https://github.com/gdelgadOntiveros/laravel-package-quotes.git",
             "options": {
                 "symlink": true
             }
         }
     ],
 	```
-Ejecute el siguiente comando para instalar el paquete:
+And:
 
 	```bash
-	composer install
+	composer require gdelgadontiveros/laravel-package-quotes:dev-master --with-dependencies
 	```
 
 
