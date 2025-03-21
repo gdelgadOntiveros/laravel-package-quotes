@@ -3,7 +3,8 @@
 namespace Gdelgadontiveros\LaravelPackageQuotes\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Gdelgadontiveros\LaravelPackageQuotes\Providers\QuotesServiceProvider;
+// use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Gdelgadontiveros\Laravelpackagequotes\Providers\QuotesServiceProvider;
 
 class TestCase extends BaseTestCase
 {
