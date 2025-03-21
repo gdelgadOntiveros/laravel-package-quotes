@@ -3,7 +3,7 @@
         'name' => 'gdelgado/quotes',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '30093e07a0cae28f06cb438ef6311d7b0c02d177',
+        'reference' => '9a24ef011722ab6aa69d1ccab659f28f877da782',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -124,7 +124,7 @@
         'gdelgado/quotes' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '30093e07a0cae28f06cb438ef6311d7b0c02d177',
+            'reference' => '9a24ef011722ab6aa69d1ccab659f28f877da782',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
