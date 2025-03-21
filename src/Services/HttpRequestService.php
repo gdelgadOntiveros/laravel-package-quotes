@@ -14,7 +14,6 @@ class HttpRequestService {
     private int $rateLimit;
     private int $maxRequestTime;
     private array $cacheArray = [];
-    private int $totalPages = 0;
     private string $cacheName = 'quote:request';
     /** attrib */
     

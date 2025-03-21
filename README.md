@@ -24,17 +24,21 @@ And:
 	```
 
 
+## Publish Files
 
-Ejecute el siguiente comando:
+config file, Run the following command:
 
 ```bash
 php artisan vendor:publish --tag=quotes-config
 ```
  
+route file, Run the following command:
 
 ```bash
 php artisan vendor:publish --tag=quotes-routes
 ```
+
+views file, Run the following command:
 
 ```bash
 php artisan vendor:publish --tag=quotes-ui
@@ -43,3 +47,22 @@ php artisan vendor:publish --tag=quotes-ui
 ```bash
 php artisan vendor:publish --tag=quotes-views
 ```
+
+## Test
+
+test file, Run the following command:
+
+```bash
+php artisan vendor:publish --tag=quotes-tests
+```
+
+```bash
+./vendor/bin/phpunit
+```
+
+
+## URL API GET METHOD
+
+`/api/quotes`: all quotes.
+`/api/quotes/random`: random quote.
+`/api/quotes/{id}`: specific quote by ID.
