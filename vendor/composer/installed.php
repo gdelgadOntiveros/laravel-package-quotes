@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'gdelgado/quotes',
+        'name' => 'gdelgadontiveros/laravel-package-quotes',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '9a24ef011722ab6aa69d1ccab659f28f877da782',
+        'reference' => '96236b60919cbe3867b26720c45df7f52c3aa88e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -121,10 +121,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'gdelgado/quotes' => array(
+        'gdelgadontiveros/laravel-package-quotes' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '9a24ef011722ab6aa69d1ccab659f28f877da782',
+            'reference' => '96236b60919cbe3867b26720c45df7f52c3aa88e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

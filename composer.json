@@ -1,5 +1,5 @@
 {
-    "name": "gdelgado/quotes",
+    "name": "gdelgadontiveros/laravel-package-quotes",
     "description": "package for connection to dummyjson api, graphical interface with vuejs",
     "autoload": {
         "psr-4": {
