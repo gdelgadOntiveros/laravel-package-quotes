@@ -3,7 +3,7 @@
         'name' => 'gdelgadontiveros/laravel-package-quotes',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '96236b60919cbe3867b26720c45df7f52c3aa88e',
+        'reference' => '989811cf568a2328a475f6fe1993873f826b3646',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -124,7 +124,7 @@
         'gdelgadontiveros/laravel-package-quotes' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '96236b60919cbe3867b26720c45df7f52c3aa88e',
+            'reference' => '989811cf568a2328a475f6fe1993873f826b3646',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

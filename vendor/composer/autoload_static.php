@@ -153,8 +153,8 @@ class ComposerStaticInit5835ad481319f0cea74ed1a631cc951f
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'GrahamCampbell\\ResultType\\' => 26,
-            'Gdelgado\\Quotes\\Tests\\' => 22,
-            'Gdelgado\\Quotes\\' => 16,
+            'Gdelgadontiveros\\LaravelPackageQuotes\\Tests\\' => 44,
+            'Gdelgadontiveros\\LaravelPackageQuotes\\' => 38,
         ),
         'F' => 
         array (
@@ -475,11 +475,11 @@ class ComposerStaticInit5835ad481319f0cea74ed1a631cc951f
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
         ),
-        'Gdelgado\\Quotes\\Tests\\' => 
+        'Gdelgadontiveros\\LaravelPackageQuotes\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'Gdelgado\\Quotes\\' => 
+        'Gdelgadontiveros\\LaravelPackageQuotes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
